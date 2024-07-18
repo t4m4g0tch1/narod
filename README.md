@@ -69,14 +69,20 @@ requirements.txt | Список зависимостий, необходимых
 codebook.csv | Код-бук с описанием атрибутов датасета websites_100.csv
 websites_100.csv | Датасет с примерами 100 сайтов для демо функционала приложения
 
-#### csv
-
-Название файла  | Содержание файла
-----------------|----------------------
-*.png | Скриншоты главных страниц сайтов
-
 ## Установка проекта
 
+1. Склонируйте репозиторий
 ```
 git clone https://github.com/t4m4g0tch1/narod.git
+```
+2. Скачайте архив screens.zip и поместите в корневую папку проекта:
+
+```
+https://drive.google.com/file/d/1IsWK9bBIx-hNUVy6VPViFEU5IrfANf1s/view?usp=sharing
+```
+
+3. Установите необходимые зависимости:
+
+```
+pip install -r requirements.txt
 ```
